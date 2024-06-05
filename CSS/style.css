@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color:#b91450 ;
+    color: white;
+    width: 100%;
+    min-height: 500px;
+}
+
+h1 , h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container{
+    background-color: white;
+    width: 70%;
+    min-height: 200px;
+    margin: 0 auto;
+    /* debug */
+    border: solid black 2px;
+}
+
+.uno{
+    border-radius: 25px;
+    margin-top: 20px ;
+    margin-bottom: 30px;
+}
+
+.invio{
+    background-color: grey;
+    color: #b91450;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+}
