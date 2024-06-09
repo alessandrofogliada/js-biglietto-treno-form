@@ -8,16 +8,70 @@
 </head>
 <body>
     
+<main>
+
+    <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+
+    <div class="container">
     <form action="#">
+
+        <div class="nameclient">
         <input type="text" class="myinput" placeholder="inserisci Nome e Cognome">
+        </div>
+
+        <div class="distance">
         <input type="text" class="distanzadapercorrere" placeholder="km da percorrere">
+        </div>
+
+        <div class="fasciaeta">
         <input type="text" class="età" placeholder="quanti anni hai?">
-    <div class="invio">
+        </div>
+
+    <div class="invio bottone">
         Genera
     </div>
+
+    <div class="invio bottone">
+        Annulla
+    </div>
+
+    </div> 
     </form>
 
-    <h2 id="mio_id"></h2>
+
+    <div class="container">
+
+        <h2>Dettaglio passeggeri</h2>
+
+        <div class="biglietto">
+
+            <div>
+                <h3>Nome passeggero</h3>
+            </div>
+
+            <div>
+                <h3>Offerta</h3>
+            </div>
+
+            <div>
+                <h5>Carrozza</h5>
+            </div>
+
+            <div>
+                <h5>Codice CP</h5>
+            </div>
+
+            <div>
+                <h5>Costo Biglietto</h5>
+                <span id="prezzobiglietto"></span>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</main>
 
 <script type="text/javascript" src="js/main.js"></script>  
 </body>
